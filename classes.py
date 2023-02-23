@@ -7,7 +7,7 @@ class Create_tree:
 
     def tree(self):
         '''Создается елочка по параметрам пользователя'''
-        for pyramid in range(self.height + 1):
+        for pyramid in range(self.height ):
            print(' ' * (self.height - pyramid), self.pin * (2 * pyramid + 1))
 
 answer = Create_tree()
