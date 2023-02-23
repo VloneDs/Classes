@@ -1,4 +1,4 @@
-class pyramidka:
+class Create_tree:
     '''Создает елочку'''
     def __init__(self, ) :
         '''Сюда сохраняется ввод пользователя '''
@@ -10,7 +10,7 @@ class pyramidka:
         for pyramid in range(self.height + 1):
            print(' ' * (self.height - pyramid), self.pin * (2 * pyramid + 1))
 
-answer = pyramidka()
+answer = Create_tree()
 
 answer.height = int(input('Введите высоту пирамиды: '))
 answer.pin = input('Введите значок пирамиды: ')
